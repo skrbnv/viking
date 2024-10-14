@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="relative w-screen h-screen">
       <video
-        autoPlay controls="" loop muted playsinline
+        autoPlay controls="" loop muted playsInline
         class="absolute -z-10 h-screen w-screen object-cover"
       >
         <source
