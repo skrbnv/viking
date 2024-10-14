@@ -2,6 +2,7 @@ import Image from "next/image";
 import Logo from "../assets/viking-logo.png";
 import { MdOutlineEmail } from "react-icons/md";
 import { TiSocialLinkedin } from "react-icons/ti";
+import { IoLocationOutline } from "react-icons/io5";
 
 export default function Home() {
   return (
@@ -45,6 +46,24 @@ export default function Home() {
             </div>
             info@vikingdata.io
           </a>
+
+          <a
+            className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-white"
+            href="https://www.google.com/maps/search/428+Seiberling?entry=gmail&source=g"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="rounded-full p-1.5 bg-white">
+              <IoLocationOutline size={18} color={'black'} />
+            </div>
+
+            <p className="text-sm">
+              428 Seiberling St<br />
+              Akron OH 44306
+            </p>
+
+          </a>
+
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4 text-white"
             href="https://www.linkedin.com/in/kazimtk"
@@ -57,6 +76,7 @@ export default function Home() {
 
             Kazim Tahir-Kheli
           </a>
+
         </div >
       </div>
 
