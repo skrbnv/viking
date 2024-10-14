@@ -29,10 +29,13 @@ body {
 
 @layer base {
   .font-outline-2 {
+    color: transparent;
     -webkit-text-stroke: 2px white;
   }
 
   .font-outline-4 {
+    color: transparent;
     -webkit-text-stroke: 4px white;
   }
+
 }
