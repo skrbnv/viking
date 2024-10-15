@@ -80,7 +80,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${satoshi.variable} ${satoshi.variable} antialiased`}
+        className={`${satoshi.variable} ${satoshi.variable} antialiased bg-black`}
       >
         {children}
       </body>
