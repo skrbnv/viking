@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Logo from "../assets/viking-logo.png";
-import LocationBG from "../assets/site-location.jpg";
+import LocationBG from "../assets/photo03.jpg";
 import ContactBlock from "./components/contacts";
 
 export default function Home() {
@@ -33,10 +33,10 @@ export default function Home() {
         <div className="absolute z-20 bottom-32 w-full max-w-3xl left-1/2 transform -translate-x-1/2 text-center pl-3 pr-3">
           <h1 className="text-5xl font-sans font-black text-white">COME TO POWER WITH VIKING DATA CENTERS</h1>
           <p className="font-sans text-lg italic text-white">Empowering the decentralized future of crypto mining and AI with resilient energy infrastructure.</p>
-          <ContactBlock />
+
         </div>
       </div>
-      <div className="relative w-full h-screen p-[60px]">
+      <div className="relative w-full h-screen p-[60px] pl-[45px] pr-[45px] md:pl-[60px] md:pr-[60px]">
         <div className="absolute w-[4px] h-[calc(100%-60px)] bg-white left-1/2 transform -translate-x-1/2 -top-0 z-50 invisible md:visible" />
         <div className="absolute w-12 h-12 bg-black border-4 -top-6 left-1/2 transform -translate-x-1/2 z-50 rounded-full" />
         <div className="absolute w-20 h-20 bg-black -top-10 left-1/2 transform -translate-x-1/2 z-[25] rounded-full md:invisible" />
@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="relative w-full h-full md:grid md:grid-cols-2 md:gap-10">
           <div className="relative">
-            <div className="md:absolute w-full max-w-md md:top-[30px] md:right-0 backdrop-blur-sm p-4 bg-white/20 rounded">
+            <div className="md:absolute w-full max-w-md md:top-[30px] md:right-0 backdrop-blur-sm p-4 bg-black/20 rounded">
               <h2 className="text-white text-3xl font-black uppercase">Welcome to 428 Seiberling</h2>
               <p className="text-white italic text-sm">
                 Located in Akron, Ohio, our 380,000 square-foot facility at 428 Seiberling Street, once a Goodyear stamping mill, has been transformed for the future of crypto mining and AI. This secure site provides access to essential infrastructure, including 24/7 security, making it an ideal location for crypto mining and AI operations. The facility is actively using the capacity available on the site, making Viking Data Centers one of the largest energy customers in the region.
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute md:relative w-full h-full left-0 top-0">
-            <div className="absolute bottom-0 md:bottom-[30px]  w-full max-w-lg md:backdrop-blur-sm p-4 bg-white/20 md:bg-black/20 rounded">
+            <div className="absolute bottom-0 md:bottom-[30px]  w-full max-w-lg md:backdrop-blur-sm p-4 bg-black/20 md:bg-black/20 rounded">
               <h2 className="text-white text-3xl font-black uppercase">Why choose us</h2>
               <p className="text-white italic text-sm">
                 With a new substation currently delivering 150 MW of power, our facility is designed to scale. In combination with the requisite electrical infrastructure needed to dedicate 150 MW of power to our clients’ computing needs, the site also features extensive cooling systems for optimal efficiency. We utilize a mix of nuclear, natural gas, and renewable energy, ensuring reliable power for today’s demands and tomorrow’s innovations.
